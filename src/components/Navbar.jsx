@@ -24,8 +24,8 @@ function Navbar() {
           <XLogoIcon size={24} weight="regular" className="cursor-pointer" />
         </div>
       </div>
-      <div className="flex justify-around align-middle border-b border-transparent bg-white/90 shadow-[0_2px_10px_rgba(0,0,0,0.1)] relative md:fixed z-1000 w-full p-0.5 md:p-3">
-        <img src="/pan_full_logo.svg" className="scale-75 md:scale-100" />
+      <div className="flex justify-around align-middle border-b border-transparent bg-white/90 shadow-[0_2px_10px_rgba(0,0,0,0.1)] relative md:fixed z-1000 w-full p-0.5">
+        <img src="/pan_full_logo.svg" className="scale-75 md:scale-85" />
         <nav className="flex justify-center align-middle items-center gap-7">
           <NavLink
             to="/"

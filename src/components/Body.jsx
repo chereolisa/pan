@@ -12,7 +12,7 @@ function Body() {
         <h2 className="font-outfit text-2xl md:text-3xl lg:text-5xl font-extrabold mb-5.5 text-center">
           Poultry Association of Nigeria, South East (PANSE)
         </h2>
-        <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-3xl leading-6 md:leading-7 lg:leading-11.5 text-center">
+        <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-2xl leading-6 md:leading-7 lg:leading-9 text-center">
           The{" "}
           <span className="text-[#FE0000]/75 cursor-pointer font-semibold">
             Poultry Association of Nigeria, South East (PANSE)
@@ -36,14 +36,14 @@ function Body() {
           <h3 className="font-outfit text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 md:mb-4 lg:mb-5.5 text-left">
             Advancing Poultry in the South East
           </h3>
-          <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-3xl leading-6 md:leading-7 lg:leading-11.5 text-left mb-1 md:mb-3">
+          <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-2xl leading-6 md:leading-7 lg:leading-9 text-left mb-1 md:mb-3">
             We are committed to advancing the poultry industry through
             collaboration, advocacy, and sustainable development. We support
             poultry farmers and industry stakeholders by promoting best
             practices, creating growth opportunities, and championing
             initiatives that strengthen the sector.
           </p>
-          <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-3xl leading-6 md:leading-7 lg:leading-11.5 text-left">
+          <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-2xl leading-6 md:leading-7 lg:leading-9 text-left">
             Our work focuses on building a more productive, resilient, and
             competitive poultry industry that contributes to food security, job
             creation, and economic development across South East Nigeria.
