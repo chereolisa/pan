@@ -1,6 +1,8 @@
 import React from "react";
 import Tag from "./Tag";
 import Members from "./Members";
+import Collab from "./Collab";
+import Footer from "./Footer";
 
 function Body() {
   return (
@@ -23,10 +25,15 @@ function Body() {
           competitiveness.
         </p>
       </section>
+
+      <section>
+        <Members />
+      </section>
+
       <section className="px-3 md:px-5 lg:px-7 flex flex-col lg:flex-row gap-2 md:gap-5 lg:gap-10 justify-around mb-20">
         <div className="w-full lg:w-9/20">
           <Tag text="WHAT WE DO" />
-          <h3 className="font-roboto text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 md:mb-4 lg:mb-5.5 text-left">
+          <h3 className="font-outfit text-2xl md:text-3xl lg:text-4xl font-semibold mb-2 md:mb-4 lg:mb-5.5 text-left">
             Advancing Poultry in the South East
           </h3>
           <p className="font-inter text-[#2d2d2d] text-base md:text-lg lg:text-3xl leading-6 md:leading-7 lg:leading-11.5 text-left mb-1 md:mb-3">
@@ -44,7 +51,7 @@ function Body() {
         </div>
         <div className="lg:w-9/20 bg-[url('/egg_image.jpg')] bg-cover bg-center rounded-xl md:rounded-2xl lg:rounded-4xl relative h-50 md:h-75 lg:h-auto">
           <div className="bg-[#f7f6f3] p-1 md:p-3 lg:p-5 rounded-lg md:rounded-xl lg:rounded-2xl shadow-[0_2px_10px_rgba(0,0,0,0.35)] w-fit flex flex-col gap-2 absolute -bottom-7 -right-2 lg:-bottom-7 lg:-left-7 animate-bounce-low">
-            <h6 className="font-outfit tracking-tight font-semibold text-[#FE0000]/70 text-left text-xs md:text-base lg:text-xl">
+            <h6 className="font-outfit tracking-tight font-semibold text-[#176B3A] text-left text-xs md:text-base lg:text-xl">
               COVERS POULTRIES IN;
             </h6>
             <p className="font-inter text-[#2d2d2d] text-xs md:text-base lg:text-xl text-left">
@@ -54,7 +61,10 @@ function Body() {
         </div>
       </section>
       <section>
-        <Members />
+        <Collab />
+      </section>
+      <section>
+        <Footer />
       </section>
     </div>
   );
